@@ -1,0 +1,41 @@
+.customer-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .customer-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .customer-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .customer-form input[type="text"],
+  .customer-form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .customer-form button {
+    padding: 10px 15px;
+    background-color: #22a6b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .customer-form button:hover {
+    background-color: #1a909a;
+}
+  

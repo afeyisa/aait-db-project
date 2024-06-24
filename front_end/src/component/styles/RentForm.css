@@ -1,0 +1,44 @@
+.rent-form {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    background-color: #f7fafc;
+    margin: 1.5rem 3.5rem;
+    padding: 1.5rem;
+  }
+  
+  .rent-form-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .rent-form-input {
+    width: 100%;
+    background-color: #edf2f7;
+    padding: 0.625rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+  }
+  
+  .rent-form-input:focus {
+    outline: 2px solid #3182ce;
+  }
+  
+  .rent-form-button {
+    padding: 0.625rem;
+    border-radius: 0.375rem;
+    background-color: #2c5282;
+    color: white;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .rent-form-button:hover {
+    background-color: #2b6cb0;
+  }
+  

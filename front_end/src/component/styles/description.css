@@ -1,0 +1,160 @@
+#description-container {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+
+.description-head{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.descriptio-details {
+    display: none;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    
+}
+.descriptio-details.active {
+    display: flex;
+    
+}
+.descriptio-details p {
+    margin: 5px 0;
+}
+
+.update-book-info-button {
+    margin: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.update-book-info-button:hover {
+    background-color: #0056b3;
+}
+
+.update-book-info-form {
+    display: none;
+    font-weight: 500;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.update-book-info-form.active {
+    display: flex;
+    
+}
+
+.update-book-info-form div {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.update-book-info-form label {
+    /*display: block;*/
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+}
+
+.update-book-info-form input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+
+}
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.go-back {
+  
+    justify-self:left;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #6c757d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .go-back:hover {
+    background-color: #5a6268;
+  }
+
+.update-book-info-form  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #28a745;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.update-book-info-form  input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+#textarea{
+    height: 100px;
+    font-size: 16;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+    padding: 12px 20px;
+    background-color: #fff5f5;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    line-height: 1.5;
+    
+  }
+
+
+
+
+
+
+
