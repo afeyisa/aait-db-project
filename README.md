@@ -38,7 +38,7 @@ The system allows users(book retailer) to manage books, employees, customers, an
     ```
 
 3. Set up the environment variables:
-    - Create a `config.env` file in the [back_end](/back_end/) directory and add the necessary environment variables.
+    - Create a `.env` file in the [back_end](/back_end/) directory and add the necessary environment variables.
 
 4. Set up the PostgreSQL database:
     - Run the SQL scripts in the [models](/back_end//models/) directory to create the necessary tables.
