@@ -1,16 +1,16 @@
 /* thank you  lord Jesus Christ  for every thing🙏🙏🙏 */
 /* author Feyisa kenenisa */
 
-const authControllers = require('../inventory/Controllers/authController');
-const inv_controller  = require('../inventory/Controllers/invController');
+const authControllers = require('../Controllers/authController');
+const inv_controller  = require('../Controllers/invController');
 const bookController  = require('../Controllers/bookController');
-const userController  = require('../inventory/Controllers/userController');
-const retailController = require('../inventory/Controllers/retailController');
-const navigationController = require('../inventory/Controllers/navigationController');
-const employeeController = require ('../inventory/Controllers/employeeController');
-const sellBooksController = require('../inventory/Controllers/sellBooksController');
-const customerController = require('../inventory/Controllers/customerController');
-const rentController =     require('../inventory/Controllers/rentController');
+const userController  = require('../Controllers/userController');
+const retailController = require('../Controllers/retailController');
+const navigationController = require('../Controllers/navigationController');
+const employeeController = require ('../Controllers/employeeController');
+const sellBooksController = require('../Controllers/sellBooksController');
+const customerController = require('../Controllers/customerController');
+const rentController =     require('../Controllers/rentController');
 const express         = require('express');
 const path            = require('path');
 const cors            = require('cors');
