@@ -50,7 +50,7 @@ The system allows users(book retailer) to manage books, employees, customers, an
     cd back_end
     ```
     ```sh
-    npm start
+    node index.js
     ```
 
 2. Start the front-end development server:
@@ -66,6 +66,8 @@ The system allows users(book retailer) to manage books, employees, customers, an
 To create a production build of the front-end:
 ```sh
 cd front_end
+```
+```sh
 npm run build
 ```
 

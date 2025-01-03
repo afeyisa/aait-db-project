@@ -16,8 +16,6 @@
     "express": "^4.19.2",
     "express-session": "^1.17.3",
     "greenlock-express": "^4.0.3",
-    "mongodb": "^6.5.0",
-    "mongoose": "^8.3.2",
     "node-cron": "^3.0.3",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",

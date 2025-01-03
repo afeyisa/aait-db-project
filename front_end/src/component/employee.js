@@ -1,9 +1,9 @@
 import './styles/inventory.css'
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {Hire,Fire, AboutEmoloyee,Payment,CheckPayment} from './employeeComponent';
 import React, {useState } from 'react';
-import { faL } from '@fortawesome/free-solid-svg-icons/faL';
+// import { faL } from '@fortawesome/free-solid-svg-icons/faL';
 
 
 

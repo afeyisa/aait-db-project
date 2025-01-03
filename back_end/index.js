@@ -21,17 +21,16 @@
     
     const dotenv      = require('dotenv');    
     const express     = require('express');
-    const mongoose    = require('mongoose');
     const session     = require('express-session');
     const passport    = require('passport');
-    const routeTo     = require('./inventory/router/route');
-    const { Pool }    = require('pg');
+    const routeTo     = require('./router/route');
+    // const { Pool }    = require('pg');
 //const { getUser } = require('./inventory/models/users');
   
 
 
     const server       = express();
-    dotenv.config({path: './config.env'});
+    dotenv.config({path: './.env'});
     
     
     
